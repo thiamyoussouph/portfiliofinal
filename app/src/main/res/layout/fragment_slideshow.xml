@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:background="@color/grey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/gris"
+            android:layout_marginTop="44dp">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/email_1_" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="28dp"
+                android:text="thianasjo@gmail.com"
+
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/vert"
+            android:layout_marginTop="44dp">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/placeholder" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="28dp"
+                android:text="sicao liberte 1 1305/d"
+
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/gris"
+            android:layout_marginTop="44dp">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/phone_call" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="28dp"
+                android:text="77 820 21 35 "
+
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="44dp"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="nom"
+           android:textSize="30dp"
+           android:textColor="@color/white"
+           android:layout_marginLeft="14dp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/white"
+           android:layout_margin="22dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="email"
+           android:textSize="30dp"
+           android:textColor="@color/white"
+           android:layout_marginLeft="14dp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/white"
+           android:layout_margin="22dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="nom"
+           android:textSize="30dp"
+           android:textColor="@color/white"
+           android:layout_marginLeft="14dp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="66dp"
+           android:background="@color/white"
+           android:layout_margin="22dp"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+
+           app:icon="@drawable/envoyer_1_"
+           android:text="send"
+           android:layout_marginLeft="55dp"
+           android:shadowRadius="@integer/material_motion_duration_long_1"
+           android:textColor="@color/white"/>
+      <TextView
+          android:layout_width="444dp"
+          android:layout_height="55dp"
+          android:background="@color/gris"
+          android:layout_marginTop="20dp"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           android:background="@color/black">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white"
+               android:text="sicap libete1
+produit de
+youssouph"/>
+       </LinearLayout>
+
+
+
+
+   </LinearLayout>
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C4C4C4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/gris"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/image_6483441__1_" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gris"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="41dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="44dp"
+
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="41dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="44dp"
+                app:srcCompat="@drawable/linkedin" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="41dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="44dp"
+                app:srcCompat="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="41dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="44dp"
+                app:srcCompat="@drawable/discord" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/gris">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DEVELLOPER WEB"
+                android:textColor="@color/white"
+                android:layout_marginLeft="130dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="12dp"
+            android:textSize="22dp"
+            android:text="a propos de moi"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mon souhait est de devenir ingénieur en informatique plus particulièrement developpeur web, consciencieux et dynamique, j ai la volonté d intégrer une entreprise pour y
+parfaire mes connaissances et y relever de nombreux défis. Mais aussi devenir un chef
+d’entreprise capable à mon tour de créer des emplois." />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="12dp"
+            android:textSize="22dp"
+            android:text="competance"
+            android:textColor="@color/black" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="HTML CSS"
+            android:textColor="@color/white" />
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp">
+
+            <ProgressBar
+                android:id="@+id/progress1"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="90%"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/white"/>
+
+                ...
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="windev"
+            android:textColor="@color/white" />
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp">
+
+            <ProgressBar
+                android:id="@+id/progress2"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="90%"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/white"/>
+
+                ...
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="php"
+            android:textColor="@color/white" />
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp">
+
+            <ProgressBar
+                android:id="@+id/progress3"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="90%"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/white"/>
+
+                ...
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="cisco"
+            android:textColor="@color/white" />
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp">
+
+            <ProgressBar
+                android:id="@+id/progress4"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="90%"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/white"/>
+
+                ...
+            </RelativeLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="c"
+            android:textColor="@color/white" />
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp">
+
+            <ProgressBar
+                android:id="@+id/progress7"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="90%"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/white"/>
+
+                ...
+            </RelativeLayout>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="hml"
+            android:textColor="@color/white" />
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp">
+
+            <ProgressBar
+                android:id="@+id/progress6"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="90%"
+                    android:layout_marginLeft="250dp"
+                    android:textColor="@color/white"/>
+
+                ...
+            </RelativeLayout>
+        </FrameLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+   android:layout_marginTop="12dp"
+
+            android:background="#009678"
+
+            app:icon="@drawable/telecharger_1_"
+            android:text="telecharger le resumer"
+            android:layout_marginLeft="55dp"
+            android:shadowRadius="@integer/material_motion_duration_long_1"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/black"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="sicap libete1
+produit de
+youssouph"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
